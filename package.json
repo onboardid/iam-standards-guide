@@ -15,7 +15,9 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "validate-metadata": "tsx scripts/validate-metadata.ts",
+    "validate": "npm run typecheck && npm run validate-metadata"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",
@@ -30,6 +32,9 @@
     "@docusaurus/module-type-aliases": "3.9.2",
     "@docusaurus/tsconfig": "3.9.2",
     "@docusaurus/types": "3.9.2",
+    "@types/node": "^20.19.22",
+    "gray-matter": "^4.0.3",
+    "tsx": "^4.20.6",
     "typescript": "~5.6.2"
   },
   "browserslist": {
