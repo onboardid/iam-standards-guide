@@ -1,0 +1,111 @@
+# Client Configuration Template
+# Copy this file to client-config.yaml and customize for each client
+
+# Client Identity
+client_id: "example-client"  # Unique identifier (lowercase, hyphens)
+client_name: "Example Client Inc"
+client_domain: ""  # Optional: custom domain (e.g., standards.example.com)
+
+# Branding
+branding:
+  site_title: "IAM Standards Reference"
+  tagline: "Internal Identity Standards Guide"
+  primary_color: "#0066cc"  # Hex color for primary brand color
+  accent_color: "#ff6600"   # Hex color for accents
+  logo_url: ""  # Path to logo file in static/img/
+
+# Content Selection
+# List the standards to include in this client's deployment
+# Leave empty to include all standards
+selected_standards:
+  # Authentication & Authorization
+  - oauth-2.0
+  - openid-connect
+  - pkce
+  - saml
+  - fido2-webauthn
+
+  # OAuth Extensions (uncomment as needed)
+  # - dpop
+  # - par
+  # - rar
+
+  # Provisioning
+  # - scim
+
+  # Directory & Network
+  - x509
+  # - ldap
+  # - kerberos
+  # - radius
+
+  # Authorization Policy (uncomment as needed)
+  # - opa
+  # - cedar
+  # - openfga
+  # - xacml
+
+  # Security Profiles (uncomment as needed)
+  # - fapi
+  # - jar
+  # - jarm
+
+  # Security Signals & Events (uncomment as needed)
+  # - sse
+  # - caep
+  # - risc
+
+  # Decentralized Identity (uncomment as needed)
+  # - dids
+  # - verifiable-credentials
+  # - openid4vc
+  # - sd-jwt
+
+  # Workload Identity & Advanced (uncomment as needed)
+  # - spiffe-spire
+  # - gnap
+
+# Compliance Focus
+# Highlight these compliance frameworks in content
+compliance_frameworks:
+  - "NIST 800-63"
+  # - "PSD2"
+  # - "HIPAA"
+  # - "GDPR"
+  # - "SOC 2"
+  # - "FedRAMP"
+
+# Team Information (for ROI calculations and analytics)
+team_size: 100  # Number of developers/architects using the guide
+industry: "Enterprise"  # Financial Services | Healthcare | Government | Enterprise | Other
+
+# Subscription Details
+subscription_tier: "standard"  # standard | premium | enterprise
+monthly_rate: 3000  # USD per month
+setup_fee: 15000    # One-time USD
+contract_start: "2025-10-01"
+contract_length_months: 12
+
+# Contact
+primary_contact:
+  name: ""
+  email: ""
+  role: ""
+
+# Technical Configuration
+deployment:
+  vercel_project_name: ""  # Vercel project ID
+  custom_domain: ""        # If using custom domain
+  auto_deploy: true       # Auto-deploy on branch push
+
+# Feature Flags (for premium/enterprise tiers)
+features:
+  sso_enabled: false           # SSO integration (Enterprise tier)
+  role_based_views: false      # Different views for architects/developers/compliance (Premium+)
+  analytics_dashboard: true    # Client analytics (all tiers)
+  custom_content: false        # Add client-specific content (Enterprise tier)
+  approval_workflow: false     # Content approval before updates (Enterprise tier)
+
+# Notes
+notes: |
+  Additional notes about client requirements, special considerations, etc.
