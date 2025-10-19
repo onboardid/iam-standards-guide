@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Explore Standards →
           </Link>
         </div>
       </div>
@@ -33,8 +33,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Comprehensive vendor-agnostic reference for Identity and Access Management (IAM) standards including OAuth, OIDC, SAML, FIDO2, Passkeys, SCIM, and more">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
