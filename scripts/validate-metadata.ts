@@ -119,7 +119,7 @@ function findStandardPages(standardsDir: string): string[] {
 
   const files = fs.readdirSync(standardsDir);
   return files
-    .filter(file => file.endsWith('.md') || file.endsWith('.mdx'))
+    .filter(file => (file.endsWith('.md') || file.endsWith('.mdx')) && file !== 'index.md')
     .map(file => path.join(standardsDir, file));
 }
 

@@ -20,6 +20,10 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'IAM Standards',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'standards/index',
+      },
       items: [
         {
           type: 'category',
