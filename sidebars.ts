@@ -16,6 +16,7 @@ const sidebars: SidebarsConfig = {
   // Main documentation sidebar
   tutorialSidebar: [
     'intro',
+    'timeline',
     {
       type: 'category',
       label: 'IAM Standards',
