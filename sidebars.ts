@@ -17,6 +17,7 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'intro',
     'timeline',
+    'relationships',
     {
       type: 'category',
       label: 'IAM Standards',
