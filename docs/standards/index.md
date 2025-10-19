@@ -140,9 +140,9 @@ Use the search bar in the navigation header to find specific standards, concepts
 
 ## Statistics
 
-- **Total Standards Documented:** 25
-- **Categories:** 8 (Authentication, OAuth Extensions, Provisioning, Directory/Network, Policy, Security Profiles, Signals/Events, Decentralized)
-- **Adoption Levels Represented:** 5 (Universal, Widely Implemented, Growing, Emerging, Legacy/Declining)
+- **Total Standards Documented:** 29
+- **Categories:** 9 (Authentication, OAuth Extensions, Provisioning, Directory/Network, Policy, Security Profiles, Signals/Events, Decentralized, Workload/Advanced)
+- **Adoption Levels Represented:** 6 (Universal, Widely Implemented, Growing, Emerging, Experimental, Legacy/Declining)
 - **Standards Bodies:** 6 (IETF, W3C, OpenID Foundation, OASIS, CNCF, ITU)
 
 *This catalog is actively growing. Check back regularly for updates.*

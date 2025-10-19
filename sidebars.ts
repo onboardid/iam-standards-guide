@@ -98,6 +98,16 @@ const sidebars: SidebarsConfig = {
           items: [
             'standards/dids',
             'standards/verifiable-credentials',
+            'standards/openid4vc',
+            'standards/sd-jwt',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Workload Identity & Advanced',
+          items: [
+            'standards/spiffe-spire',
+            'standards/gnap',
           ],
         },
       ],
