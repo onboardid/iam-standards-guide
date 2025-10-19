@@ -26,7 +26,10 @@ const sidebars: SidebarsConfig = {
           label: 'Authentication & Authorization',
           items: [
             'standards/oauth-2.0',
-            // Future: openid-connect, saml, fido2, passkeys, etc.
+            'standards/openid-connect',
+            'standards/pkce',
+            'standards/saml',
+            'standards/fido2-webauthn',
           ],
         },
         // Future categories:
