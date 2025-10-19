@@ -67,6 +67,27 @@ const sidebars: SidebarsConfig = {
           label: 'Authorization Policy',
           items: [
             'standards/opa',
+            'standards/cedar',
+            'standards/openfga',
+            'standards/xacml',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Security Profiles',
+          items: [
+            'standards/fapi',
+            'standards/jar',
+            'standards/jarm',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Security Signals & Events',
+          items: [
+            'standards/sse',
+            'standards/caep',
+            'standards/risc',
           ],
         },
         {

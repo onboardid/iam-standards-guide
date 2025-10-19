@@ -50,14 +50,36 @@ Welcome to the comprehensive catalog of Identity and Access Management (IAM) sta
 | [DIDs](./dids.md) | Emerging | Decentralized IDs, Self-Sovereign Identity | 2022-07 |
 | [Verifiable Credentials](./verifiable-credentials.md) | Growing | Digital Credentials, Mobile DL, EUDI Wallet | 2025-05 |
 
+### Authorization Policy
+
+| Standard | Adoption Level | Key Use Cases | Published |
+|----------|----------------|---------------|-----------|
+| [OPA](./opa.md) | Growing | Cloud-Native Policy, Kubernetes | 2016-01 |
+| [Cedar](./cedar.md) | Emerging | Formally Verified Authorization, AWS | 2023-05 |
+| [OpenFGA](./openfga.md) | Growing | Relationship-Based Authorization | 2022-09 |
+| [XACML 3.0](./xacml.md) | Legacy/Declining | XML-Based ABAC | 2013-01 |
+
+### Security Profiles
+
+| Standard | Adoption Level | Key Use Cases | Published |
+|----------|----------------|---------------|-----------|
+| [FAPI 2.0](./fapi.md) | Widely Implemented | Financial API Security, Open Banking | 2025-02 |
+| [JAR](./jar.md) | Growing | Signed Authorization Requests | 2021-08 |
+| [JARM](./jarm.md) | Growing | Signed Authorization Responses | 2021 |
+
+### Security Signals & Events
+
+| Standard | Adoption Level | Key Use Cases | Published |
+|----------|----------------|---------------|-----------|
+| [SSE Framework](./sse.md) | Emerging | Real-Time Security Event Sharing | 2023-11 |
+| [CAEP](./caep.md) | Emerging | Continuous Access Evaluation, Zero Trust | 2023-11 |
+| [RISC](./risc.md) | Emerging | Risk Incident Sharing | 2025-09 |
+
 ### Coming Soon
 
-Additional standards will be documented in upcoming stories:
-- **Authorization Policy:** Cedar, OpenFGA, XACML
-- **Security:** FAPI 2.0, JAR, JARM
-- **Provisioning:** SSE Framework, CAEP, RISC
+Additional standards will be documented in Story 1.6 or later:
 - **Workload Identity:** SPIFFE/SPIRE
-- **Emerging:** GNAP, OpenID4VCI/VP, SD-JWT
+- **Emerging:** GNAP, OpenID4VCI/VP, SD-JWT, BBS Signatures
 
 ## Filter by Adoption Level
 
@@ -118,9 +140,9 @@ Use the search bar in the navigation header to find specific standards, concepts
 
 ## Statistics
 
-- **Total Standards Documented:** 15
-- **Categories:** 6 (Authentication, OAuth Extensions, Provisioning, Directory/Network, Policy, Decentralized)
-- **Adoption Levels Represented:** 4 (Universal, Widely Implemented, Growing, Emerging)
+- **Total Standards Documented:** 25
+- **Categories:** 8 (Authentication, OAuth Extensions, Provisioning, Directory/Network, Policy, Security Profiles, Signals/Events, Decentralized)
+- **Adoption Levels Represented:** 5 (Universal, Widely Implemented, Growing, Emerging, Legacy/Declining)
 - **Standards Bodies:** 6 (IETF, W3C, OpenID Foundation, OASIS, CNCF, ITU)
 
 *This catalog is actively growing. Check back regularly for updates.*
