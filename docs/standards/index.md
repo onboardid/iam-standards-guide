@@ -10,19 +10,54 @@ Welcome to the comprehensive catalog of Identity and Access Management (IAM) sta
 |----------|----------------|---------------|-----------|
 | [OAuth 2.0](./oauth-2.0.md) | Universal | API Authorization, Delegated Access | 2012-10 |
 | [OpenID Connect](./openid-connect.md) | Universal | Web Authentication, SSO, Social Login | 2014-02 |
-| [PKCE](./pkce.md) | Universal | OAuth Code Protection, Mobile Security | 2015-09 |
-| [SAML 2.0](./saml.md) | Widely Implemented | Enterprise SSO, Cross-Domain Federation | 2005-03 |
-| [FIDO2 / WebAuthn](./fido2-webauthn.md) | Widely Implemented | Passwordless Auth, Biometric Login | 2021-04 |
+| [PKCE](./pkce.md) | Universal | OAuth Code Protection (Mandatory) | 2015-09 |
+| [SAML 2.0](./saml.md) | Widely Implemented | Enterprise SSO, Federation | 2005-03 |
+| [FIDO2 / WebAuthn](./fido2-webauthn.md) | Widely Implemented | Passwordless, Passkeys | 2021-04 |
+
+### OAuth Security Extensions
+
+| Standard | Adoption Level | Key Use Cases | Published |
+|----------|----------------|---------------|-----------|
+| [DPoP](./dpop.md) | Growing | Token Binding, Theft Prevention | 2023-09 |
+| [PAR](./par.md) | Growing | Request Confidentiality (FAPI) | 2021-09 |
+| [RAR](./rar.md) | Growing | Fine-Grained Authorization | 2023-05 |
+
+### Provisioning & Lifecycle
+
+| Standard | Adoption Level | Key Use Cases | Published |
+|----------|----------------|---------------|-----------|
+| [SCIM 2.0](./scim.md) | Widely Implemented | Cloud Provisioning, Account Sync | 2015-09 |
+
+### Directory & Network
+
+| Standard | Adoption Level | Key Use Cases | Published |
+|----------|----------------|---------------|-----------|
+| [X.509](./x509.md) | Universal | TLS Certificates, PKI | 1988 |
+| [LDAP v3](./ldap.md) | Widely Implemented | Directory Services, Active Directory | 2006-06 |
+| [Kerberos v5](./kerberos.md) | Widely Implemented | Windows Domain Auth, Enterprise SSO | 2005-07 |
+| [RADIUS](./radius.md) | Widely Implemented | WiFi/VPN Auth, Network Access | 2000-06 |
+
+### Authorization Policy
+
+| Standard | Adoption Level | Key Use Cases | Published |
+|----------|----------------|---------------|-----------|
+| [OPA](./opa.md) | Growing | Cloud-Native Policy, Kubernetes | 2016 |
+
+### Decentralized Identity
+
+| Standard | Adoption Level | Key Use Cases | Published |
+|----------|----------------|---------------|-----------|
+| [DIDs](./dids.md) | Emerging | Decentralized IDs, Self-Sovereign Identity | 2022-07 |
+| [Verifiable Credentials](./verifiable-credentials.md) | Growing | Digital Credentials, Mobile DL, EUDI Wallet | 2025-05 |
 
 ### Coming Soon
 
-Additional standards will be documented in upcoming releases:
-- **Provisioning:** SCIM 2.0, SPML (deprecated)
-- **Authorization Policy:** OPA, Cedar, OpenFGA, XACML
-- **Security Extensions:** DPoP, PAR, RAR, JAR, JARM
-- **Decentralized Identity:** DIDs, Verifiable Credentials, OpenID4VCI/VP
-- **Zero Trust:** SPIFFE/SPIRE, CAEP, SSE Framework
-- **Legacy:** Kerberos, LDAP, RADIUS, X.509
+Additional standards will be documented in upcoming stories:
+- **Authorization Policy:** Cedar, OpenFGA, XACML
+- **Security:** FAPI 2.0, JAR, JARM
+- **Provisioning:** SSE Framework, CAEP, RISC
+- **Workload Identity:** SPIFFE/SPIRE
+- **Emerging:** GNAP, OpenID4VCI/VP, SD-JWT
 
 ## Filter by Adoption Level
 
@@ -83,10 +118,10 @@ Use the search bar in the navigation header to find specific standards, concepts
 
 ## Statistics
 
-- **Total Standards Documented:** 5
-- **Categories:** 1 (Authentication & Authorization)
-- **Adoption Levels Represented:** 2 (Universal, Widely Implemented)
-- **Standards Bodies:** 4 (IETF, W3C, OpenID Foundation, OASIS)
+- **Total Standards Documented:** 15
+- **Categories:** 6 (Authentication, OAuth Extensions, Provisioning, Directory/Network, Policy, Decentralized)
+- **Adoption Levels Represented:** 4 (Universal, Widely Implemented, Growing, Emerging)
+- **Standards Bodies:** 6 (IETF, W3C, OpenID Foundation, OASIS, CNCF, ITU)
 
 *This catalog is actively growing. Check back regularly for updates.*
 

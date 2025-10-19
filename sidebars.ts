@@ -36,17 +36,47 @@ const sidebars: SidebarsConfig = {
             'standards/fido2-webauthn',
           ],
         },
-        // Future categories:
-        // {
-        //   type: 'category',
-        //   label: 'Provisioning & Lifecycle',
-        //   items: ['standards/scim', ...],
-        // },
-        // {
-        //   type: 'category',
-        //   label: 'Decentralized Identity',
-        //   items: ['standards/dids', 'standards/verifiable-credentials', ...],
-        // },
+        {
+          type: 'category',
+          label: 'OAuth Security Extensions',
+          items: [
+            'standards/dpop',
+            'standards/par',
+            'standards/rar',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Provisioning & Lifecycle',
+          items: [
+            'standards/scim',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Directory & Network',
+          items: [
+            'standards/x509',
+            'standards/ldap',
+            'standards/kerberos',
+            'standards/radius',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Authorization Policy',
+          items: [
+            'standards/opa',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Decentralized Identity',
+          items: [
+            'standards/dids',
+            'standards/verifiable-credentials',
+          ],
+        },
       ],
     },
     {
