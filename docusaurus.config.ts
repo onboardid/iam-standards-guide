@@ -93,28 +93,36 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Standards',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Browse Catalog',
+              to: '/docs/standards/',
+            },
+            {
+              label: 'Authentication',
+              to: '/docs/guides/which-authentication-standard',
+            },
+            {
+              label: 'Authorization',
+              to: '/docs/guides/which-authorization-standard',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Resources',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Timeline (1988-2025)',
+              to: '/docs/timeline',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Relationships',
+              to: '/docs/relationships',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Industry Guides',
+              to: '/docs/industries/financial-services',
             },
           ],
         },
@@ -122,17 +130,21 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'Updates',
               to: '/blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/onboardid/iam-standards-guide',
+            },
+            {
+              label: 'Report Issue',
+              href: 'https://github.com/onboardid/iam-standards-guide/issues',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} IAM Standards Guide. Powered by <a href="https://onboard.id" target="_blank" rel="noopener noreferrer" style="color: #36C5BA;">Onboard<span style="color: #36C5BA;">.id</span></a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} IAM Standards Guide. Powered by <a href="https://onboard.id" target="_blank" rel="noopener noreferrer" style="color: #36C5BA; font-weight: 600;">Onboard<span style="color: #36C5BA;">.id</span></a>`,
     },
     prism: {
       theme: prismThemes.github,

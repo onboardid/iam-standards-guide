@@ -61,3 +61,37 @@
   --ifm-color-accent: #ff9900;
 }
 */
+
+/* Footer Styling - Ensure readability with Onboard.id branding */
+.footer {
+  background-color: #103E5A !important;  /* Deep Slate Blue */
+}
+
+.footer__title {
+  color: #36C5BA !important;  /* Mint Teal for section titles */
+}
+
+.footer__item,
+.footer__link-item {
+  color: #F4F8F9 !important;  /* Soft Mist Gray for links - high contrast */
+}
+
+.footer__link-item:hover {
+  color: #36C5BA !important;  /* Mint Teal on hover */
+  text-decoration: none;
+}
+
+.footer__copyright {
+  color: #F4F8F9 !important;  /* Soft Mist Gray for copyright text */
+}
+
+/* Ensure footer links are visible in both light and dark mode */
+[data-theme='dark'] .footer,
+[data-theme='light'] .footer {
+  background-color: #103E5A !important;
+}
+
+[data-theme='dark'] .footer__link-item,
+[data-theme='light'] .footer__link-item {
+  color: #F4F8F9 !important;
+}
