@@ -46,7 +46,11 @@ Despite excellent frameworks like FICAM and IDPro Body of Knowledge, no single r
 2. **Where gaps/overlaps exist** in standards coverage
 3. **Specific open-source projects** implementing these standards
 
-This guide fills that gap.
+**This guide provides all three:**
+
+✅ **[IAM Architecture Mapped to Standards](./architecture.md)** - Functional processes → Standards
+✅ **[Gap & Overlap Analysis](./architecture.md#gaps--overlaps-analysis)** - What's covered, what's emerging
+✅ **[Open Source Projects Matrix](./implementations.md)** - Which projects implement which standards
 
 ## Who This Guide Serves
 

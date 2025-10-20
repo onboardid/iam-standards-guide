@@ -16,6 +16,8 @@ const sidebars: SidebarsConfig = {
   // Main documentation sidebar
   tutorialSidebar: [
     'intro',
+    'architecture',
+    'implementations',
     {
       type: 'category',
       label: 'Quick Start',
