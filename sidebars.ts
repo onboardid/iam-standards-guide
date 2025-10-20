@@ -16,6 +16,23 @@ const sidebars: SidebarsConfig = {
   // Main documentation sidebar
   tutorialSidebar: [
     'intro',
+    {
+      type: 'category',
+      label: 'Quick Start',
+      items: [
+        'guides/which-authentication-standard',
+        'guides/which-authorization-standard',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Industry Guides',
+      items: [
+        'industries/financial-services',
+        'industries/healthcare',
+        'industries/government',
+      ],
+    },
     'timeline',
     'relationships',
     {
