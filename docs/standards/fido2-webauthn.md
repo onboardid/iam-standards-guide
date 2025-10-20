@@ -275,7 +275,7 @@ FIDO2 comprises two specifications: WebAuthn (W3C, browser API) and CTAP (FIDO A
 
 - **WebAuthn Level 2:** [W3C Recommendation](https://www.w3.org/TR/webauthn-2/)
 - **WebAuthn Level 3:** [W3C Working Draft](https://www.w3.org/TR/webauthn-3/) (in progress)
-- **CTAP 2.2:** [FIDO Alliance Specification](https://fidoalliance.org/specs/fido-v2.2-rd-20250228/fido-client-to-authenticator-protocol-v2.2-rd-20250228.html) (February 2025)
+- **CTAP 2.2:** FIDO Alliance Specification (February 2025)
 - **Passkeys:** [FIDO Alliance Whitepaper](https://fidoalliance.org/passkeys/)
 
 ### Standards Body Resources
@@ -283,7 +283,7 @@ FIDO2 comprises two specifications: WebAuthn (W3C, browser API) and CTAP (FIDO A
 - **W3C WebAuthn:** https://www.w3.org/TR/webauthn/
 - **FIDO Alliance:** https://fidoalliance.org/
 - **Passkeys.dev:** https://passkeys.dev/ (developer resources)
-- **Passkeys.io:** https://wwwkeys.io/ (end-user information)
+- **Passkeys.io:** https://passkeys.io/ (end-user information)
 
 ### Community Resources
 
