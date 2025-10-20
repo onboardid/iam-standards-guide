@@ -129,11 +129,6 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    {
-      type: 'category',
-      label: 'Getting Started',
-      items: ['tutorial-basics/create-a-document'],
-    },
   ],
 };
 
