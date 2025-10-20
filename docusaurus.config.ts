@@ -47,7 +47,6 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/onboardid/iam-standards-guide/tree/main/',
-          remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}]],
         },
         blog: {
           showReadingTime: true,
