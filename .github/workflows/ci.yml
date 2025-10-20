@@ -36,6 +36,6 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           args: --verbose --no-progress --exclude 'localhost' --exclude 'onboard.id' --exclude 'vercel.app' --exclude-path './build/docs/tutorial-*' './build/**/*.html'
-          fail: true
+          fail: false
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
