@@ -1,41 +1,57 @@
 /**
- * Global CSS for IAM Standards Guide
- * Client branding can be customized via CSS custom properties
+ * IAM Standards Guide - Styled with Onboard.id Brand Colors
+ * Building brand recognition for future Onboard.id launch
  */
 
-/* Default Theme (Public Site) */
+/* Onboard.id Brand Colors */
 :root {
-  /* Primary Brand Colors - Override these for client customization */
-  --ifm-color-primary: #0066cc;
-  --ifm-color-primary-dark: #005bb8;
-  --ifm-color-primary-darker: #0056ad;
-  --ifm-color-primary-darkest: #00478f;
-  --ifm-color-primary-light: #0070e0;
-  --ifm-color-primary-lighter: #0075eb;
-  --ifm-color-primary-lightest: #1a85ff;
+  /* Primary Brand Colors - Onboard.id Palette */
+  --ifm-color-primary: #36C5BA;  /* Mint Teal - Primary brand color */
+  --ifm-color-primary-dark: #2eb3a9;
+  --ifm-color-primary-darker: #2ba89f;
+  --ifm-color-primary-darkest: #248b83;
+  --ifm-color-primary-light: #48cdc3;
+  --ifm-color-primary-lighter: #53d1c7;
+  --ifm-color-primary-lightest: #6ed9d0;
 
-  /* Accent Color - Override for client branding */
-  --ifm-color-accent: #ff6600;
+  /* Secondary Brand Colors */
+  --ifm-color-secondary: #103E5A;  /* Deep Slate Blue - Headers, authority */
+  --ifm-color-accent: #88D4B7;     /* Sage Green - Success, growth */
+  --ifm-color-warning: #EE6B5E;    /* Coral Red - Warnings, errors */
 
-  /* Typography */
+  /* Background Colors */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #F4F8F9;  /* Soft Mist Gray */
+
+  /* Text Colors */
+  --ifm-font-color-base: #1F2C33;  /* Charcoal Ink - Primary text */
+  --ifm-heading-color: #103E5A;    /* Deep Slate Blue - Headers */
+
+  /* Typography - Enterprise-grade */
   --ifm-code-font-size: 95%;
-  --ifm-font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-weight: 600;
 
-  /* Spacing and Layout */
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Layout */
+  --docusaurus-highlighted-code-line-bg: rgba(54, 197, 186, 0.1);  /* Mint Teal highlight */
 }
 
-/* Dark Mode Palette */
+/* Dark Mode - Adjusted for Onboard.id branding */
 [data-theme='dark'] {
-  --ifm-color-primary: #3399ff;
-  --ifm-color-primary-dark: #1a8cff;
-  --ifm-color-primary-darker: #0080ff;
-  --ifm-color-primary-darkest: #006bd9;
-  --ifm-color-primary-light: #4da6ff;
-  --ifm-color-primary-lighter: #66b3ff;
-  --ifm-color-primary-lightest: #80bfff;
-  --ifm-color-accent: #ff8533;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #36C5BA;  /* Mint Teal stays vibrant in dark mode */
+  --ifm-color-primary-dark: #2eb3a9;
+  --ifm-color-primary-darker: #2ba89f;
+  --ifm-color-primary-darkest: #248b83;
+  --ifm-color-primary-light: #48cdc3;
+  --ifm-color-primary-lighter: #53d1c7;
+  --ifm-color-primary-lightest: #6ed9d0;
+
+  --ifm-background-color: #1F2C33;  /* Charcoal Ink background */
+  --ifm-background-surface-color: #103E5A;  /* Deep Slate Blue surfaces */
+  --ifm-font-color-base: #F4F8F9;  /* Soft Mist Gray text */
+  --ifm-heading-color: #36C5BA;    /* Mint Teal headers in dark mode */
+  --ifm-color-accent: #88D4B7;
+  --docusaurus-highlighted-code-line-bg: rgba(54, 197, 186, 0.15);
 }
 
 /* Client Branding Override Example */

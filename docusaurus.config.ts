@@ -132,7 +132,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} IAM Standards Guide. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} IAM Standards Guide. Powered by <a href="https://onboard.id" target="_blank" rel="noopener noreferrer" style="color: #36C5BA;">Onboard<span style="color: #36C5BA;">.id</span></a>`,
     },
     prism: {
       theme: prismThemes.github,
