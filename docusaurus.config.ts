@@ -9,6 +9,12 @@ const config: Config = {
   tagline: 'The Definitive Identity and Access Management Standards Reference',
   favicon: 'img/favicon.ico',
 
+  // Mermaid diagrams support
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -41,6 +47,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/onboardid/iam-standards-guide/tree/main/',
+          remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}]],
         },
         blog: {
           showReadingTime: true,
