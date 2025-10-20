@@ -144,7 +144,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} IAM Standards Guide. Powered by <a href="https://onboard.id" target="_blank" rel="noopener noreferrer" style="color: #36C5BA; font-weight: 600;">Onboard<span style="color: #36C5BA;">.id</span></a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} IAM Standards Guide. Powered by Onboard.id`,
     },
     prism: {
       theme: prismThemes.github,
