@@ -95,3 +95,44 @@
 [data-theme='light'] .footer__link-item {
   color: #F4F8F9 !important;
 }
+
+/* Hero Section - Ensure readability on Mint Teal background */
+.hero--primary {
+  background-color: #36C5BA !important;  /* Mint Teal hero background */
+}
+
+.hero__title {
+  color: #103E5A !important;  /* Deep Slate Blue for contrast */
+  font-weight: 700;
+}
+
+.hero__subtitle {
+  color: #1F2C33 !important;  /* Charcoal Ink for tagline */
+  font-weight: 500;
+}
+
+/* Hero button styling */
+.hero .button--secondary {
+  background-color: #103E5A !important;  /* Deep Slate Blue button */
+  color: #F4F8F9 !important;  /* Light text */
+  border-color: #103E5A !important;
+}
+
+.hero .button--secondary:hover {
+  background-color: #1F2C33 !important;  /* Darker on hover */
+  color: #36C5BA !important;  /* Mint Teal text on hover */
+}
+
+/* Homepage features section */
+.features {
+  background-color: #103E5A;  /* Deep Slate Blue background */
+  padding: 4rem 0;
+}
+
+.features h3 {
+  color: #36C5BA !important;  /* Mint Teal headings */
+}
+
+.features p {
+  color: #F4F8F9 !important;  /* Soft Mist Gray text for readability */
+}
